@@ -51,7 +51,7 @@ These other datasets were used for the spatial visualizations, which required ex
 The spatial visualizations depict the values of certain explanatory variables across the contiguous United States during the months of April 2020 to August 2020, from near the beginning of the Covid-19 pandemic in the U.S. to the current time. I've chosen to hone in on anxiety and depression through time, our main dataset; social media counts of how many times Covid-19 was mentioned per county, through time; the initial state mandates in response to Covid-19 such as lockdown procedures; and the CDC's 2018 Social Vulnerability Index. Looking at these variables together should give us an idea of how these social factors may interact with each other during the current crisis. In addition to these variables, the hardest-hit cities have been represented by green dots on the map, which are sized according the number of cases in that city; this should provide a view of how regions highly impacted by the pandemic are performing with respect to our main variables.
 
 
-## Results # {.tabset .tabset-fade .tabset-pills}
+## Results
 
 ### Usage of Data
 
