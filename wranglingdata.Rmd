@@ -1,0 +1,230 @@
+---
+title: "proj_wrangling"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r more_setup}
+library(maps)
+library(magrittr)
+library(dplyr)
+library(tidyverse)
+library(robotstxt)
+library(viridis)
+library(mdsr)
+library(Hmisc)
+library(stringr)
+
+path_in <- "C:/Users/karen/Desktop/git/stat-231-private/data/blog data/"
+```
+
+
+```{r map_data}
+# map data for counties
+map_counties <- map_data(map = "county", region = ".") %>%
+  rename(county = subregion, state = region) %>%
+  mutate(county = case_when(county == county ~ str_to_title(county))) %>%
+  mutate(state = case_when(state == state ~ str_to_title(state)))
+
+# map data for states
+map_states <- map_data(map = "state", region = ".") %>%
+  rename(state = region) %>%
+  select(-subregion) %>%
+  mutate(state = case_when(state == state ~ str_to_title(state)))
+
+# map data for cities and counties together
+cities_counties <- read_csv(paste0(path_in, "simplemaps_uscities_basicv1.7/uscities.csv"))
+cities_counties <- cities_counties %>%
+  select(city, state_id, state_name, county_fips, county_name, lat, lng, population, density) %>%
+  rename(state = state_name, county = county_name)
+```
+
+
+```{r covid_data}
+covid_counties <- read_csv(paste0(path_in, "us-counties.txt"))
+unique(covid_counties$state)
+covid_counties <- covid_counties %>%
+  filter(state != "Puerto Rico", state != "Virgin Islands", state != "Guam", state != "Northern Mariana Islands") %>%
+  # mutate(data = as.character(date)) %>%
+  filter(str_detect(date, "-04-") | str_detect(date, "-05-") | str_detect(date, "-06-") |
+           str_detect(date, "-07-") | str_detect(date, "-08-"))
+covid_counties <- covid_counties %>%
+  mutate(month = case_when(str_detect(date, "-04-") ~ "April",
+                           str_detect(date, "-05-") ~ "May",
+                           str_detect(date, "-06-") ~ "June",
+                           str_detect(date, "-07-") ~ "July",
+                           str_detect(date, "-08-") ~ "August" ) )
+covid <- covid_counties %>%
+  group_by(month, county, state) %>%
+  summarise(cases = sum(cases), deaths = sum(deaths))
+```
+
+
+```{r social_data}
+# CDC anxiety depression data
+anxdep <- read_csv(paste0(path_in, "CDC_anxietydepression.csv"))
+ad <- anxdep %>%
+  filter(Group == "National Estimate" | Group == "By State") %>%
+  mutate("Symptom" = case_when(Indicator == "Symptoms of Depressive Disorder" ~ "Depression",
+                               Indicator == "Symptoms of Anxiety Disorder" ~ "Anxiety",
+                               Indicator == "Symptoms of Anxiety Disorder or Depressive Disorder" ~ "Either")) %>%
+  rename(WeekLabel = "Time Period Label", Week = "Time Period") %>%
+  select(Symptom, Group, State, Week, WeekLabel, Value) %>%
+  mutate(Month = case_when(WeekLabel == "Apr 23 - May 5" ~ "April",
+                           WeekLabel == "May 7 - May 12" ~ "May",
+                           WeekLabel == "May 14 - May 19" ~ "May",
+                           WeekLabel == "May 21 - May 26" ~ "May",
+                           WeekLabel == "May 28 - June 2" ~ "May",
+                           WeekLabel == "June 4 - June 9" ~ "June",
+                           WeekLabel == "June 11 - June 16" ~ "June",
+                           WeekLabel == "June 18 - June 23" ~ "June",
+                           WeekLabel == "June 25 - June 30" ~ "June",
+                           WeekLabel == "July 2 - July 7" ~ "July",
+                           WeekLabel == "July 9 - July 14" ~ "July",
+                           WeekLabel == "July 16 - July 21" ~ "July",
+                           WeekLabel == "July 22 - Aug 18" ~ "August",
+                           WeekLabel == "Aug 19 - Aug 31" ~ "August")) %>%
+  filter(WeekLabel != "July 22 - Aug 18", WeekLabel != "Sep 2 - Sep 14") %>%
+  spread(Symptom, Value) %>%
+  filter(Group == "By State") %>%
+  select(State, Month, Either) %>%
+  rename(state = State, month = Month, anx_dep = Either) %>%
+  group_by(state, month) %>%
+  summarise(anx_dep = mean(anx_dep))
+
+
+
+# social media counts
+smcounts <- read_csv(paste0(path_in, "COVID-19_Social_Media_Counts_%26_Sentiment.csv"))
+sm <- smcounts %>%
+  filter(current_fl != "incomplete_data") %>%
+  select(county_fip, name, week_start, uniq_users, total_post)
+sm <- sm %>%
+  filter(str_detect(week_start, "/04/") | str_detect(week_start, "/05/") |
+           str_detect(week_start, "/06/") | str_detect(week_start, "/07/") | 
+           str_detect(week_start, "/08/")) %>%
+  mutate(month = case_when(str_detect(week_start, "/04/") ~ "April",
+                           str_detect(week_start, "/05/") ~ "May",
+                           str_detect(week_start, "/06/") ~ "June",
+                           str_detect(week_start, "/07/") ~ "July",
+                           str_detect(week_start, "/08/") ~ "August") )
+sm <- sm %>%
+  group_by(county_fip, name, month) %>%
+  summarise(uniq_users = sum(uniq_users), total_post = sum(total_post)) %>%
+  mutate(county = str_replace(name, " County| Parish", "")) %>%
+  select(-name)
+
+
+
+# state and territory actions
+stateactions <- read_csv(paste0(path_in, "COVID19_State_and_Territory_Actions_Download.csv"))
+actions <- stateactions %>%
+  select(State, Statewide_Limits_on_Gatherings_, Statewide_Closure_of_Non_Essent,
+         Statewide_Curfew, Statewide_Mask_Policy, Extension_of_Individual_Income_) %>%
+  filter(State != "Puerto Rico", State != "United States Virgin Islands", State != "Guam",
+         State != "Commonwealth of the Northern Mariana Islands", State != "American Samoa") %>%
+  rename(state = State)
+
+
+actions <- actions %>%
+  select(-c(Statewide_Limits_on_Gatherings_, Statewide_Closure_of_Non_Essent)) %>%
+  mutate(curfew = case_when(Statewide_Curfew == "No" ~ 0,
+                            Statewide_Curfew == "Local" ~ 4)) %>%
+  mutate(masks = case_when(Statewide_Mask_Policy == "Recommendation" ~ 1,
+                           Statewide_Mask_Policy == "Mandatory (for essential business employees)" ~ 2,
+                           Statewide_Mask_Policy == "Mandatory (for essential business employees and patrons while on premises)" ~ 3,
+                           Statewide_Mask_Policy == "Mandatory" ~ 4)) %>%
+  mutate(income = case_when(Extension_of_Individual_Income_ == "N/A" ~ 4,
+                            Extension_of_Individual_Income_ == "Yes- payment only" ~ 3,
+                            Extension_of_Individual_Income_ == "Yes- filing and payment" ~ 2)) %>%
+  mutate(stress = curfew + masks + income) %>%
+  select(state, stress)
+
+
+
+# CDC social vulnerability index
+sviIndex <- read_csv(paste0(path_in, "SVI2018_US_COUNTY.csv"))
+svi <- sviIndex %>%
+  select(STATE, ST_ABBR, FIPS, LOCATION, SPL_THEME1, RPL_THEME1, SPL_THEME2, RPL_THEME2,
+         SPL_THEME3, RPL_THEME3, SPL_THEME4, RPL_THEME4, SPL_THEMES, RPL_THEMES) %>%
+  filter(SPL_THEMES != -999) %>%
+  separate(LOCATION, c("county_name", "bleh"), sep = " County, ") %>%
+  select(-bleh) %>%
+  rename(state = STATE, county = county_name)
+svi$state <- str_to_title(svi$state)
+svi <- svi %>%
+  separate(county, c("county", "blah"), sep = " Parish, ") %>%
+  select(-blah)
+```
+
+
+```{r joining_dfs}
+# covid counts in major cities (across time)
+covid_cities <- left_join(covid, cities_counties, by = c("county", "state")) %>%
+  group_by(month, state, state_id, county, county_fips) %>%
+  summarise(city = city, popmax = max(population), population = population,
+            cases = cases, deaths = deaths, lat = lat, lng = lng) %>%
+  filter(popmax == population) %>%
+  select(-popmax) %>%
+  filter(population > 250000, state != "Hawaii")
+
+summary(covid_cities$population)
+
+# anxiety/depression, state map (across time)
+ad_map <- left_join(ad, map_states, by = "state") %>%
+  rename(target = anx_dep)
+
+# social media counts, county map (across time)
+map_counties
+
+map_counties_fips <- cities_counties %>%
+  select(state, county, county_fips) %>%
+  group_by(state, county, county_fips) %>%
+  summarise() %>%
+  inner_join(map_counties, by = c("state", "county")) %>%
+  rename(county_fip = county_fips)
+
+sm_map <- full_join(sm, map_counties_fips, by = c("county_fip", "county")) %>%
+  mutate(target = log(total_post))
+
+
+# state mandates, state map
+actions_map <- left_join(actions, map_states, by = "state") %>%
+  arrange(state) %>%
+  rename(target = stress) %>%
+  mutate(month = NA)
+
+# social vulnerability index, county map
+svi_map <- full_join(svi, map_counties, by = c("state", "county")) %>%
+  rename(target = SPL_THEMES) %>%
+  mutate(month = NA)
+```
+
+
+```{r}
+path_in2 <- "C:/Users/karen/Desktop/git/stat-231-private/blogproject/"
+write_csv(ad_map, paste0(path_in2, "ad.csv"))
+write_csv(sm, paste0(path_in2, "sm.csv"))
+write_csv(actions_map, paste0(path_in2, "act.csv"))
+write_csv(svi_map, paste0(path_in2, "svi.csv"))
+write_csv(cities_counties, paste0(path_in2, "cities_counties.csv"))
+write_csv(covid_cities, paste0(path_in2, "covid_cities.csv"))
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

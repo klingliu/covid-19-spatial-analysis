@@ -1,0 +1,771 @@
+month,state,state_id,county,county_fips,city,population,cases,deaths,lat,lng
+April,Alabama,AL,Jefferson,01073,Birmingham,739573,18785,652,33.5277,-86.7987
+April,Alabama,AL,Madison,01089,Huntsville,319249,5500,93,34.6988,-86.6412
+April,Alabama,AL,Mobile,01097,Mobile,315502,16400,718,30.6783,-88.1162
+April,Alabama,AL,Montgomery,01101,Montgomery,254634,5348,101,32.3473,-86.2666
+April,Arizona,AZ,Maricopa,04013,Phoenix,4219697,68745,2096,33.5722,-112.0891
+April,Arizona,AZ,Pima,04019,Tucson,888486,22392,1292,32.1545,-110.8782
+April,Arkansas,AR,Pulaski,05119,Little Rock,439815,9605,309,34.7256,-92.3576
+April,Arkansas,AR,Washington,05143,Fayetteville,351246,1461,23,36.0713,-94.166
+April,California,CA,Alameda,06001,Oakland,433031,30470,988,37.7903,-122.2165
+April,California,CA,Contra Costa,06013,Concord,652308,18210,457,37.9722,-122.0016
+April,California,CA,Fresno,06019,Fresno,703498,8629,151,36.7831,-119.7941
+April,California,CA,Kern,06029,Bakersfield,579295,15562,95,35.3529,-119.0359
+April,California,CA,Los Angeles,06037,Los Angeles,12750807,362305,14801,34.1139,-118.4068
+April,California,CA,Orange,06059,Mission Viejo,590249,43117,778,33.6095,-117.655
+April,California,CA,Riverside,06065,Riverside,2107852,65312,2056,33.9381,-117.3948
+April,California,CA,Sacramento,06067,Sacramento,1898019,23327,869,38.5667,-121.4683
+April,California,CA,San Bernardino,06071,Victorville,346789,32855,1387,34.5277,-117.3536
+April,California,CA,San Diego,06073,San Diego,3220118,63537,1995,32.8312,-117.1225
+April,California,CA,San Francisco,06075,San Francisco,3592294,29980,481,37.7562,-122.443
+April,California,CA,San Joaquin,06077,Stockton,397264,10753,521,37.9765,-121.3109
+April,California,CA,Santa Clara,06085,San Jose,1798103,50477,2099,37.3019,-121.8486
+April,California,CA,Sonoma,06097,Santa Rosa,324634,4982,51,38.4458,-122.7067
+April,California,CA,Stanislaus,06099,Modesto,383134,5515,105,37.6374,-121.0028
+April,California,CA,Ventura,06111,Oxnard,387647,10831,347,34.1963,-119.1815
+April,Colorado,CO,Adams,08001,Aurora,379289,24400,973,39.7087,-104.7273
+April,Colorado,CO,Denver,08031,Denver,2876625,48624,2104,39.7621,-104.8759
+April,Colorado,CO,El Paso,08041,Colorado Springs,642413,19560,1330,38.8674,-104.7606
+April,Colorado,CO,Larimer,08069,Fort Collins,312666,6677,352,40.5478,-105.0656
+April,Connecticut,CT,Fairfield,09001,Bridgeport,924449,205168,11601,41.1918,-73.1953
+April,Connecticut,CT,Hartford,09003,Hartford,905152,84712,8164,41.7661,-72.6834
+April,Connecticut,CT,New Haven,09009,New Haven,564830,119568,6630,41.3112,-72.9246
+April,District of Columbia,DC,District of Columbia,11001,Washington,5379184,70950,2651,38.9047,-77.0163
+April,Florida,FL,Brevard,12009,Palm Bay,507002,5138,145,27.955,-80.6627
+April,Florida,FL,Duval,12031,Jacksonville,1181496,21761,417,30.3322,-81.6749
+April,Florida,FL,Escambia,12033,Pensacola,346921,8586,172,30.4427,-87.1886
+April,Florida,FL,Flagler,12035,Palm Coast,417007,2005,48,29.5392,-81.246
+April,Florida,FL,Hillsborough,12057,Tampa,2908063,24497,453,27.9942,-82.4451
+April,Florida,FL,Lee,12071,Cape Coral,668382,20120,706,26.6446,-81.9956
+April,Florida,FL,Leon,12073,Tallahassee,257601,4132,26,30.4551,-84.2526
+April,Florida,FL,Miami-Dade,12086,Miami,6445545,237859,4951,25.7839,-80.2102
+April,Florida,FL,Orange,12095,Orlando,1822394,31058,553,28.4772,-81.3369
+April,Florida,FL,Osceola,12097,Kissimmee,382720,10588,157,28.3042,-81.4164
+April,Florida,FL,Pinellas,12103,St. Petersburg,265351,15617,485,27.7931,-82.6652
+April,Florida,FL,Polk,12105,Lakeland,302284,8762,335,28.0556,-81.9545
+April,Florida,FL,Sarasota,12115,Sarasota,722243,7297,601,27.3386,-82.5431
+April,Florida,FL,St. Lucie,12111,Port St. Lucie,461152,5002,333,27.2796,-80.3883
+April,Georgia,GA,Chatham,13051,Savannah,276295,4659,155,32.0281,-81.1784
+April,Georgia,GA,Fulton,13121,Atlanta,5449398,54666,1955,33.7627,-84.4224
+April,Georgia,GA,Muscogee,13215,Columbus,261445,5226,98,32.51,-84.8771
+April,Georgia,GA,Richmond,13245,Augusta,390809,6287,235,33.3645,-82.0708
+April,Idaho,ID,Ada,16001,Boise,389280,16177,274,43.6007,-116.2312
+April,Illinois,IL,Cook,17031,Chicago,8604203,561258,21980,41.8373,-87.6862
+April,Illinois,IL,Lake,17097,Round Lake Beach,279381,54902,1923,42.379,-88.0811
+April,Illinois,IL,Peoria,17143,Peoria,256286,1107,41,40.752,-89.6153
+April,Illinois,IL,Winnebago,17201,Rockford,282762,4904,228,42.2597,-89.0641
+April,Indiana,IN,Allen,18003,Fort Wayne,334122,7454,583,41.0886,-85.1437
+April,Indiana,IN,Marion,18097,Indianapolis,1588961,100233,5144,39.7771,-86.1458
+April,Indiana,IN,St. Joseph,18141,South Bend,280498,9607,311,41.6767,-86.2696
+April,Iowa,IA,Polk,19153,Des Moines,473957,10455,366,41.5725,-93.6105
+April,Iowa,IA,Scott,19163,Davenport,285362,3974,70,41.5563,-90.6052
+April,Kansas,KS,Sedgwick,20173,Wichita,482249,6633,104,37.6896,-97.3442
+April,Kentucky,KY,Fayette,21067,Lexington,317110,5902,221,38.0423,-84.4587
+April,Kentucky,KY,Jefferson,21111,Louisville,1005654,20821,1554,38.1663,-85.6485
+April,Louisiana,LA,Caddo,22017,Shreveport,280062,32127,1672,32.4656,-93.7956
+April,Louisiana,LA,East Baton Rouge,22033,Baton Rouge,570308,37792,1993,30.4418,-91.131
+April,Louisiana,LA,Lafayette,22055,Lafayette,264357,10859,396,30.2084,-92.0323
+April,Louisiana,LA,Orleans,22071,New Orleans,1020886,163471,8561,30.0687,-89.9288
+April,Maryland,MD,Baltimore,24510,Baltimore,2106068,45468,1349,39.3051,-76.6144
+April,Massachusetts,MA,Hampden,25013,Springfield,623401,60570,5205,42.1155,-72.5395
+April,Massachusetts,MA,Suffolk,25025,Boston,4688346,205735,6064,42.3188,-71.0846
+April,Massachusetts,MA,Worcester,25027,Worcester,498328,80125,2948,42.2705,-71.8079
+April,Michigan,MI,Genesee,26049,Flint,332190,31095,2791,43.0235,-83.6922
+April,Michigan,MI,Ingham,26065,Lansing,324286,8556,155,42.7142,-84.5601
+April,Michigan,MI,Kent,26081,Grand Rapids,609314,15997,537,42.962,-85.6562
+April,Michigan,MI,Washtenaw,26161,Ann Arbor,322267,24874,880,42.2755,-83.7312
+April,Michigan,MI,Wayne,26163,Detroit,3506126,359376,28017,42.3834,-83.1024
+April,Minnesota,MN,Hennepin,27053,Minneapolis,2977172,23389,2278,44.9635,-93.2678
+April,Minnesota,MN,Ramsey,27123,St. Paul,308096,5401,295,44.9477,-93.104
+April,Mississippi,MS,Hinds,28049,Jackson,325350,8615,108,32.3163,-90.2124
+April,Missouri,MO,Greene,29077,Springfield,288090,2248,230,37.1943,-93.2916
+April,Missouri,MO,Jackson,29095,Kansas City,1636715,6908,253,39.1239,-94.5541
+April,Missouri,MO,St. Louis,29510,St. Louis,2024074,56993,2081,38.6358,-90.2451
+April,Nebraska,NE,Douglas,31055,Omaha,847819,8976,260,41.2627,-96.0522
+April,Nebraska,NE,Lancaster,31109,Lincoln,289490,2339,23,40.809,-96.6788
+April,Nevada,NV,Clark,32003,Las Vegas,2104198,77641,3387,36.2333,-115.2654
+April,Nevada,NV,Washoe,32031,Reno,445020,16083,459,39.5497,-119.8483
+April,New Jersey,NJ,Essex,34013,Newark,282011,257145,18048,40.7245,-74.1725
+April,New Jersey,NJ,Hudson,34017,Jersey City,262075,264998,10912,40.7161,-74.0682
+April,New Jersey,NJ,Mercer,34021,Trenton,290716,60025,2866,40.2236,-74.7641
+April,New Mexico,NM,Bernalillo,35001,Albuquerque,761195,14385,597,35.1053,-106.6464
+April,New York,NY,Albany,36001,Albany,586383,17951,751,42.6664,-73.7987
+April,New York,NY,Dutchess,36027,Poughkeepsie,394760,57892,1186,41.6949,-73.921
+April,New York,NY,Erie,36029,Buffalo,914341,56221,3363,42.9016,-78.8487
+April,New York,NY,Monroe,36055,Rochester,703952,27358,1541,43.168,-77.6162
+April,New York,NY,Onondaga,36067,Syracuse,404223,14641,515,43.0409,-76.1438
+April,North Carolina,NC,Buncombe,37021,Asheville,312507,1203,72,35.5704,-82.5536
+April,North Carolina,NC,Cabarrus,37025,Concord,261801,4987,120,35.3933,-80.6366
+April,North Carolina,NC,Cumberland,37051,Fayetteville,327435,3225,86,35.0846,-78.9776
+April,North Carolina,NC,Durham,37063,Durham,424700,10783,142,35.9794,-78.9031
+April,North Carolina,NC,Forsyth,37067,Winston-Salem,422269,3643,112,36.1029,-80.2611
+April,North Carolina,NC,Guilford,37081,Greensboro,343090,5393,348,36.0956,-79.8269
+April,North Carolina,NC,Mecklenburg,37119,Charlotte,1512923,32005,647,35.208,-80.8304
+April,North Carolina,NC,New Hanover,37129,Wilmington,255616,1687,35,34.21,-77.8866
+April,North Carolina,NC,Wake,37183,Raleigh,1038738,15161,145,35.8325,-78.6435
+April,Ohio,OH,Cuyahoga,39035,Cleveland,1710093,40437,1480,41.4767,-81.6804
+April,Ohio,OH,Franklin,39049,Columbus,1562009,37340,840,39.9862,-82.985
+April,Ohio,OH,Hamilton,39061,Cincinnati,1662691,19437,881,39.1413,-84.5061
+April,Ohio,OH,Lucas,39095,Toledo,482111,19918,1043,41.6639,-83.5822
+April,Ohio,OH,Mahoning,39099,Youngstown,378732,14914,1243,41.0993,-80.6463
+April,Ohio,OH,Montgomery,39113,Dayton,718353,5713,187,39.7797,-84.1998
+April,Ohio,OH,Stark,39151,Canton,269418,5890,591,40.8075,-81.3677
+April,Ohio,OH,Summit,39153,Akron,565208,9810,645,41.0798,-81.5219
+April,Oklahoma,OK,Oklahoma,40109,Oklahoma City,972943,14677,607,35.4676,-97.5136
+April,Oklahoma,OK,Tulsa,40143,Tulsa,671033,10904,586,36.1284,-95.9042
+April,Oregon,OR,Lane,41039,Eugene,273439,1194,36,44.0563,-123.1173
+April,Oregon,OR,Marion,41047,Salem,266804,9413,324,44.9231,-123.0246
+April,Oregon,OR,Multnomah,41051,Portland,2074775,13029,672,45.5372,-122.65
+April,Pennsylvania,PA,Allegheny,42003,Pittsburgh,1703266,27233,1178,40.4396,-79.9762
+April,Pennsylvania,PA,Berks,42011,Reading,267155,41693,1329,40.34,-75.9267
+April,Pennsylvania,PA,Dauphin,42043,Harrisburg,442289,9123,257,40.2752,-76.8843
+April,Pennsylvania,PA,Lackawanna,42069,Scranton,384250,15166,1019,41.4044,-75.6649
+April,Pennsylvania,PA,Lancaster,42071,Lancaster,401524,28859,2197,40.0421,-76.3012
+April,Pennsylvania,PA,Lehigh,42077,Allentown,683794,54626,903,40.5961,-75.4756
+April,Pennsylvania,PA,Philadelphia,42101,Philadelphia,5649300,235027,7680,40.0077,-75.1339
+April,Rhode Island,RI,Providence,44007,Providence,1203230,77913,1087,41.823,-71.4187
+April,South Carolina,SC,Charleston,45019,Charleston,628377,10693,94,32.8153,-79.9628
+April,South Carolina,SC,Greenville,45045,Greenville,484465,12233,327,34.8353,-82.3647
+April,South Carolina,SC,Horry,45051,Myrtle Beach,275579,4370,274,33.7096,-78.8843
+April,South Carolina,SC,Richland,45079,Columbia,560041,16765,392,34.0376,-80.9037
+April,Tennessee,TN,Davidson,47037,Nashville,1081903,48100,495,36.1715,-86.7843
+April,Tennessee,TN,Hamilton,47065,Chattanooga,415501,3312,321,35.0657,-85.2488
+April,Tennessee,TN,Knox,47093,Knoxville,586048,5140,105,35.9692,-83.9496
+April,Tennessee,TN,Shelby,47157,Memphis,1066967,44643,894,35.1046,-89.9773
+April,Texas,TX,Bell,48027,Killeen,258009,3386,77,31.0754,-97.7296
+April,Texas,TX,Bexar,48029,San Antonio,2049293,25694,914,29.4658,-98.5253
+April,Texas,TX,Collin,48085,Plano,287677,14430,306,33.0502,-96.7487
+April,Texas,TX,Dallas,48113,Dallas,5743938,61894,1471,32.7936,-96.7662
+April,Texas,TX,Denton,48121,Denton,457177,15696,406,33.2176,-97.1419
+April,Texas,TX,El Paso,48141,El Paso,843386,12951,184,31.8479,-106.4309
+April,Texas,TX,Harris,48201,Houston,5464251,117074,1741,29.7863,-95.3889
+April,Texas,TX,Hidalgo,48215,McAllen,804114,6249,68,26.2273,-98.2471
+April,Texas,TX,Lubbock,48303,Lubbock,267648,10159,708,33.5659,-101.8878
+April,Texas,TX,Nueces,48355,Corpus Christi,342464,2325,22,27.726,-97.3755
+April,Texas,TX,Tarrant,48439,Fort Worth,909585,33121,966,32.7811,-97.3473
+April,Texas,TX,Travis,48453,Austin,1687311,28417,590,30.3004,-97.7522
+April,Texas,TX,Webb,48479,Laredo,262079,6746,281,27.5629,-99.4875
+April,Utah,UT,Salt Lake,49035,Salt Lake City,1098526,41506,369,40.7777,-111.9306
+April,Utah,UT,Utah,49049,Provo,500617,13226,89,40.2457,-111.6457
+April,Utah,UT,Weber,49057,Ogden,578523,3039,38,41.2278,-111.9682
+April,Virginia,VA,Richmond,51760,Richmond,1075798,1052,0,37.5295,-77.4756
+April,Washington,WA,King,53033,Seattle,3789215,138708,9468,47.6211,-122.3244
+April,Washington,WA,Spokane,53063,Spokane,412275,8482,460,47.6671,-117.433
+April,Wisconsin,WI,Dane,55025,Madison,447245,10216,443,43.0826,-89.3931
+April,Wisconsin,WI,Milwaukee,55079,Milwaukee,1365787,56669,3116,43.0642,-87.9673
+August,Alabama,AL,Jefferson,01073,Birmingham,739573,439303,8212,33.5277,-86.7987
+August,Alabama,AL,Madison,01089,Huntsville,319249,178694,1279,34.6988,-86.6412
+August,Alabama,AL,Mobile,01097,Mobile,315502,336393,7124,30.6783,-88.1162
+August,Alabama,AL,Montgomery,01101,Montgomery,254634,223180,4815,32.3473,-86.2666
+August,Arizona,AZ,Maricopa,04013,Phoenix,4219697,3979145,79501,33.5722,-112.0891
+August,Arizona,AZ,Pima,04019,Tucson,888486,594966,16156,32.1545,-110.8782
+August,Arkansas,AR,Pulaski,05119,Little Rock,439815,186778,2787,34.7256,-92.3576
+August,Arkansas,AR,Washington,05143,Fayetteville,351246,199535,1641,36.0713,-94.166
+August,California,CA,Alameda,06001,Oakland,433031,463338,6785,37.7903,-122.2165
+August,California,CA,Contra Costa,06013,Concord,652308,340579,4747,37.9722,-122.0016
+August,California,CA,Fresno,06019,Fresno,703498,627298,6242,36.7831,-119.7941
+August,California,CA,Kern,06029,Bakersfield,579295,796406,6449,35.3529,-119.0359
+August,California,CA,Los Angeles,06037,Los Angeles,12750807,6796228,163012,34.1139,-118.4068
+August,California,CA,Orange,06059,Mission Viejo,590249,1335540,25028,33.6095,-117.655
+August,California,CA,Riverside,06065,Riverside,2107852,1423782,27219,33.9381,-117.3948
+August,California,CA,Sacramento,06067,Sacramento,1898019,426385,6437,38.5667,-121.4683
+August,California,CA,San Bernardino,06071,Victorville,346789,1256409,18272,34.5277,-117.3536
+August,California,CA,San Diego,06073,San Diego,3220118,1068211,19388,32.8312,-117.1225
+August,California,CA,San Francisco,06075,San Francisco,3592294,253561,2197,37.7562,-122.443
+August,California,CA,San Joaquin,06077,Stockton,397264,453565,7884,37.9765,-121.3109
+August,California,CA,Santa Clara,06085,San Jose,1798103,434973,6686,37.3019,-121.8486
+August,California,CA,Sonoma,06097,Santa Rosa,324634,135795,1824,38.4458,-122.7067
+August,California,CA,Stanislaus,06099,Modesto,383134,370292,6065,37.6374,-121.0028
+August,California,CA,Ventura,06111,Oxnard,387647,287187,2974,34.1963,-119.1815
+August,Colorado,CO,Adams,08001,Aurora,379289,211599,5707,39.7087,-104.7273
+August,Colorado,CO,Denver,08031,Denver,2876625,326741,13094,39.7621,-104.8759
+August,Colorado,CO,El Paso,08041,Colorado Springs,642413,168809,4493,38.8674,-104.7606
+August,Colorado,CO,Larimer,08069,Fort Collins,312666,51878,1149,40.5478,-105.0656
+August,Connecticut,CT,Fairfield,09001,Bridgeport,924449,566377,43711,41.1918,-73.1953
+August,Connecticut,CT,Hartford,09003,Hartford,905152,401856,43982,41.7661,-72.6834
+August,Connecticut,CT,New Haven,09009,New Haven,564830,413500,34335,41.3112,-72.9246
+August,District of Columbia,DC,District of Columbia,11001,Washington,5379184,407849,18495,38.9047,-77.0163
+August,Florida,FL,Brevard,12009,Palm Bay,507002,199982,5277,27.955,-80.6627
+August,Florida,FL,Duval,12031,Jacksonville,1181496,754537,6592,30.3322,-81.6749
+August,Florida,FL,Escambia,12033,Pensacola,346921,308950,4554,30.4427,-87.1886
+August,Florida,FL,Flagler,12035,Palm Coast,417007,35368,425,29.5392,-81.246
+August,Florida,FL,Hillsborough,12057,Tampa,2908063,1052018,14239,27.9942,-82.4451
+August,Florida,FL,Lee,12071,Cape Coral,668382,534429,11425,26.6446,-81.9956
+August,Florida,FL,Leon,12073,Tallahassee,257601,166394,800,30.4551,-84.2526
+August,Florida,FL,Miami-Dade,12086,Miami,6445545,4403956,63646,25.7839,-80.2102
+August,Florida,FL,Orange,12095,Orlando,1822394,1024324,10083,28.4772,-81.3369
+August,Florida,FL,Osceola,12097,Kissimmee,382720,314178,3486,28.3042,-81.4164
+August,Florida,FL,Pinellas,12103,St. Petersburg,265351,574879,17099,27.7931,-82.6652
+August,Florida,FL,Polk,12105,Lakeland,302284,470528,11182,28.0556,-81.9545
+August,Florida,FL,Sarasota,12115,Sarasota,722243,203882,5133,27.3386,-82.5431
+August,Florida,FL,St. Lucie,12111,Port St. Lucie,461152,191199,5895,27.2796,-80.3883
+August,Georgia,GA,Chatham,13051,Savannah,276295,190780,2950,32.0281,-81.1784
+August,Georgia,GA,Fulton,13121,Atlanta,5449398,676834,14310,33.7627,-84.4224
+August,Georgia,GA,Muscogee,13215,Columbus,261445,154300,3371,32.51,-84.8771
+August,Georgia,GA,Richmond,13245,Augusta,390809,153690,3143,33.3645,-82.0708
+August,Idaho,ID,Ada,16001,Boise,389280,303150,2958,43.6007,-116.2312
+August,Illinois,IL,Cook,17031,Chicago,8604203,3600562,154016,41.8373,-87.6862
+August,Illinois,IL,Lake,17097,Round Lake Beach,279381,411885,13992,42.379,-88.0811
+August,Illinois,IL,Peoria,17143,Peoria,256286,58024,1148,40.752,-89.6153
+August,Illinois,IL,Winnebago,17201,Rockford,282762,121319,4328,42.2597,-89.0641
+August,Indiana,IN,Allen,18003,Fort Wayne,334122,132590,5496,41.0886,-85.1437
+August,Indiana,IN,Marion,18097,Indianapolis,1588961,519449,24323,39.7771,-86.1458
+August,Indiana,IN,St. Joseph,18141,South Bend,280498,123193,2787,41.6767,-86.2696
+August,Iowa,IA,Polk,19153,Des Moines,473957,345345,6573,41.5725,-93.6105
+August,Iowa,IA,Scott,19163,Davenport,285362,57786,498,41.5563,-90.6052
+August,Kansas,KS,Sedgwick,20173,Wichita,482249,179641,1437,37.6896,-97.3442
+August,Kentucky,KY,Fayette,21067,Lexington,317110,137465,1561,38.0423,-84.4587
+August,Kentucky,KY,Jefferson,21111,Louisville,1005654,301232,8191,38.1663,-85.6485
+August,Louisiana,LA,Caddo,22017,Shreveport,280062,213402,9302,32.4656,-93.7956
+August,Louisiana,LA,East Baton Rouge,22033,Baton Rouge,570308,392106,11571,30.4418,-91.131
+August,Louisiana,LA,Lafayette,22055,Lafayette,264357,240421,3093,30.2084,-92.0323
+August,Louisiana,LA,Orleans,22071,New Orleans,1020886,339197,17576,30.0687,-89.9288
+August,Maryland,MD,Baltimore,24510,Baltimore,2106068,431057,17837,39.3051,-76.6144
+August,Massachusetts,MA,Hampden,25013,Springfield,623401,238250,22296,42.1155,-72.5395
+August,Massachusetts,MA,Suffolk,25025,Boston,4688346,690887,33551,42.3188,-71.0846
+August,Massachusetts,MA,Worcester,25027,Worcester,498328,426974,31583,42.2705,-71.8079
+August,Michigan,MI,Genesee,26049,Flint,332190,116139,9265,43.0235,-83.6922
+August,Michigan,MI,Ingham,26065,Lansing,324286,50291,1048,42.7142,-84.5601
+August,Michigan,MI,Kent,26081,Grand Rapids,609314,241688,4917,42.962,-85.6562
+August,Michigan,MI,Washtenaw,26161,Ann Arbor,322267,98123,3813,42.2755,-83.7312
+August,Michigan,MI,Wayne,26163,Detroit,3506126,904250,88140,42.3834,-83.1024
+August,Minnesota,MN,Hennepin,27053,Minneapolis,2977172,632211,26325,44.9635,-93.2678
+August,Minnesota,MN,Ramsey,27123,St. Paul,308096,248945,8560,44.9477,-93.104
+August,Mississippi,MS,Hinds,28049,Jackson,325350,183235,3881,32.3163,-90.2124
+August,Missouri,MO,Greene,29077,Springfield,288090,64345,589,37.1943,-93.2916
+August,Missouri,MO,Jackson,29095,Kansas City,1636715,139952,2099,39.1239,-94.5541
+August,Missouri,MO,St. Louis,29510,St. Louis,2024074,507694,21377,38.6358,-90.2451
+August,Nebraska,NE,Douglas,31055,Omaha,847819,372576,4492,41.2627,-96.0522
+August,Nebraska,NE,Lancaster,31109,Lincoln,289490,108364,580,40.809,-96.6788
+August,Nevada,NV,Clark,32003,Las Vegas,2104198,1614627,28364,36.2333,-115.2654
+August,Nevada,NV,Washoe,32031,Reno,445020,194538,3908,39.5497,-119.8483
+August,New Jersey,NJ,Essex,34013,Newark,282011,624853,65413,40.7245,-74.1725
+August,New Jersey,NJ,Hudson,34017,Jersey City,262075,620386,46693,40.7161,-74.0682
+August,New Jersey,NJ,Mercer,34021,Trenton,290716,255055,19281,40.2236,-74.7641
+August,New Mexico,NM,Bernalillo,35001,Albuquerque,761195,165621,4321,35.1053,-106.6464
+August,New York,NY,Albany,36001,Albany,586383,82050,3941,42.6664,-73.7987
+August,New York,NY,Dutchess,36027,Poughkeepsie,394760,145241,4788,41.6949,-73.921
+August,New York,NY,Erie,36029,Buffalo,914341,284210,18770,42.9016,-78.8487
+August,New York,NY,Monroe,36055,Rochester,703952,159084,7972,43.168,-77.6162
+August,New York,NY,Onondaga,36067,Syracuse,404223,113879,5574,43.0409,-76.1438
+August,North Carolina,NC,Buncombe,37021,Asheville,312507,63897,2030,35.5704,-82.5536
+August,North Carolina,NC,Cabarrus,37025,Concord,261801,86243,1548,35.3933,-80.6366
+August,North Carolina,NC,Cumberland,37051,Fayetteville,327435,105225,1785,35.0846,-78.9776
+August,North Carolina,NC,Durham,37063,Durham,424700,198554,2502,35.9794,-78.9031
+August,North Carolina,NC,Forsyth,37067,Winston-Salem,422269,171467,1836,36.1029,-80.2611
+August,North Carolina,NC,Guilford,37081,Greensboro,343090,185385,4930,36.0956,-79.8269
+August,North Carolina,NC,Mecklenburg,37119,Charlotte,1512923,719679,8060,35.208,-80.8304
+August,North Carolina,NC,New Hanover,37129,Wilmington,255616,83081,635,34.21,-77.8866
+August,North Carolina,NC,Wake,37183,Raleigh,1038738,400554,5463,35.8325,-78.6435
+August,Ohio,OH,Cuyahoga,39035,Cleveland,1710093,440857,16345,41.4767,-81.6804
+August,Ohio,OH,Franklin,39049,Columbus,1562009,602906,16681,39.9862,-82.985
+August,Ohio,OH,Hamilton,39061,Cincinnati,1662691,313060,8275,39.1413,-84.5061
+August,Ohio,OH,Lucas,39095,Toledo,482111,176100,10221,41.6639,-83.5822
+August,Ohio,OH,Mahoning,39099,Youngstown,378732,82293,8028,41.0993,-80.6463
+August,Ohio,OH,Montgomery,39113,Dayton,718353,146459,3219,39.7797,-84.1998
+August,Ohio,OH,Stark,39151,Canton,269418,61872,4445,40.8075,-81.3677
+August,Ohio,OH,Summit,39153,Akron,565208,118620,7030,41.0798,-81.5219
+August,Oklahoma,OK,Oklahoma,40109,Oklahoma City,972943,356230,3964,35.4676,-97.5136
+August,Oklahoma,OK,Tulsa,40143,Tulsa,671033,350638,3598,36.1284,-95.9042
+August,Oregon,OR,Lane,41039,Eugene,273439,19113,125,44.0563,-123.1173
+August,Oregon,OR,Marion,41047,Salem,266804,99397,2262,44.9231,-123.0246
+August,Oregon,OR,Multnomah,41051,Portland,2074775,163136,3275,45.5372,-122.65
+August,Pennsylvania,PA,Allegheny,42003,Pittsburgh,1703266,289692,8821,40.4396,-79.9762
+August,Pennsylvania,PA,Berks,42011,Reading,267155,173584,11569,40.34,-75.9267
+August,Pennsylvania,PA,Dauphin,42043,Harrisburg,442289,92127,4950,40.2752,-76.8843
+August,Pennsylvania,PA,Lackawanna,42069,Scranton,384250,60987,6584,41.4044,-75.6649
+August,Pennsylvania,PA,Lancaster,42071,Lancaster,401524,191576,13016,40.0421,-76.3012
+August,Pennsylvania,PA,Lehigh,42077,Allentown,683794,156230,10527,40.5961,-75.4756
+August,Pennsylvania,PA,Philadelphia,42101,Philadelphia,5649300,996427,53682,40.0077,-75.1339
+August,Rhode Island,RI,Providence,44007,Providence,1203230,486035,25454,41.823,-71.4187
+August,South Carolina,SC,Charleston,45019,Charleston,628377,396864,6476,32.8153,-79.9628
+August,South Carolina,SC,Greenville,45045,Greenville,484465,347835,6997,34.8353,-82.3647
+August,South Carolina,SC,Horry,45051,Myrtle Beach,275579,273161,5071,33.7096,-78.8843
+August,South Carolina,SC,Richland,45079,Columbia,560041,290203,5218,34.0376,-80.9037
+August,Tennessee,TN,Davidson,47037,Nashville,1081903,743425,7102,36.1715,-86.7843
+August,Tennessee,TN,Hamilton,47065,Chattanooga,415501,210669,1874,35.0657,-85.2488
+August,Tennessee,TN,Knox,47093,Knoxville,586048,169063,1504,35.9692,-83.9496
+August,Tennessee,TN,Shelby,47157,Memphis,1066967,768467,10368,35.1046,-89.9773
+August,Texas,TX,Bell,48027,Killeen,258009,130336,1463,31.0754,-97.7296
+August,Texas,TX,Bexar,48029,San Antonio,2049293,1360969,27129,29.4658,-98.5253
+August,Texas,TX,Collin,48085,Plano,287677,283693,3044,33.0502,-96.7487
+August,Texas,TX,Dallas,48113,Dallas,5743938,1977055,25583,32.7936,-96.7662
+August,Texas,TX,Denton,48121,Denton,457177,261433,3181,33.2176,-97.1419
+August,Texas,TX,El Paso,48141,El Paso,843386,553419,10806,31.8479,-106.4309
+August,Texas,TX,Harris,48201,Houston,5464251,2844388,55444,29.7863,-95.3889
+August,Texas,TX,Hidalgo,48215,McAllen,804114,691475,29257,26.2273,-98.2471
+August,Texas,TX,Lubbock,48303,Lubbock,267648,202161,2717,33.5659,-101.8878
+August,Texas,TX,Nueces,48355,Corpus Christi,342464,507147,8632,27.726,-97.3755
+August,Texas,TX,Tarrant,48439,Fort Worth,909585,1130325,15564,32.7811,-97.3473
+August,Texas,TX,Travis,48453,Austin,1687311,749355,10272,30.3004,-97.7522
+August,Texas,TX,Webb,48479,Laredo,262079,281144,5984,27.5629,-99.4875
+August,Utah,UT,Salt Lake,49035,Salt Lake City,1098526,673880,6494,40.7777,-111.9306
+August,Utah,UT,Utah,49049,Provo,500617,291675,1237,40.2457,-111.6457
+August,Utah,UT,Weber,49057,Ogden,578523,91031,822,41.2278,-111.9682
+August,Virginia,VA,Richmond,51760,Richmond,1075798,10009,130,37.5295,-77.4756
+August,Washington,WA,King,53033,Seattle,3789215,546508,22048,47.6211,-122.3244
+August,Washington,WA,Spokane,53063,Spokane,412275,144971,3246,47.6671,-117.433
+August,Wisconsin,WI,Dane,55025,Madison,447245,148930,1194,43.0826,-89.3931
+August,Wisconsin,WI,Milwaukee,55079,Milwaukee,1365787,683838,14485,43.0642,-87.9673
+July,Alabama,AL,Jefferson,01073,Birmingham,739573,244289,5605,33.5277,-86.7987
+July,Alabama,AL,Madison,01089,Huntsville,319249,91584,483,34.6988,-86.6412
+July,Alabama,AL,Mobile,01097,Mobile,315502,175849,4943,30.6783,-88.1162
+July,Alabama,AL,Montgomery,01101,Montgomery,254634,153267,3786,32.3473,-86.2666
+July,Arizona,AZ,Maricopa,04013,Phoenix,4219697,2705670,41844,33.5722,-112.0891
+July,Arizona,AZ,Pima,04019,Tucson,888486,387350,11079,32.1545,-110.8782
+July,Arkansas,AR,Pulaski,05119,Little Rock,439815,105104,2074,34.7256,-92.3576
+July,Arkansas,AR,Washington,05143,Fayetteville,351246,150704,1149,36.0713,-94.166
+July,California,CA,Alameda,06001,Oakland,433031,268879,4909,37.7903,-122.2165
+July,California,CA,Contra Costa,06013,Concord,652308,166351,2939,37.9722,-122.0016
+July,California,CA,Fresno,06019,Fresno,703498,299118,2996,36.7831,-119.7941
+July,California,CA,Kern,06029,Bakersfield,579295,306526,3226,35.3529,-119.0359
+July,California,CA,Los Angeles,06037,Los Angeles,12750807,4534053,123135,34.1139,-118.4068
+July,California,CA,Orange,06059,Mission Viejo,590249,837060,14436,33.6095,-117.655
+July,California,CA,Riverside,06065,Riverside,2107852,879941,17792,33.9381,-117.3948
+July,California,CA,Sacramento,06067,Sacramento,1898019,202602,2866,38.5667,-121.4683
+July,California,CA,San Bernardino,06071,Victorville,346789,684747,10063,34.5277,-117.3536
+July,California,CA,San Diego,06073,San Diego,3220118,683843,14303,32.8312,-117.1225
+July,California,CA,San Francisco,06075,San Francisco,3592294,152763,1624,37.7562,-122.443
+July,California,CA,San Joaquin,06077,Stockton,397264,239550,2705,37.9765,-121.3109
+July,California,CA,Santa Clara,06085,San Jose,1798103,221050,5409,37.3019,-121.8486
+July,California,CA,Sonoma,06097,Santa Rosa,324634,62168,589,38.4458,-122.7067
+July,California,CA,Stanislaus,06099,Modesto,383134,179644,2050,37.6374,-121.0028
+July,California,CA,Ventura,06111,Oxnard,387647,161030,1796,34.1963,-119.1815
+July,Colorado,CO,Adams,08001,Aurora,379289,154716,4995,39.7087,-104.7273
+July,Colorado,CO,Denver,08031,Denver,2876625,256010,12267,39.7621,-104.8759
+July,Colorado,CO,El Paso,08041,Colorado Springs,642413,106040,3774,38.8674,-104.7606
+July,Colorado,CO,Larimer,08069,Fort Collins,312666,31836,957,40.5478,-105.0656
+July,Connecticut,CT,Fairfield,09001,Bridgeport,924449,530096,43093,41.1918,-73.1953
+July,Connecticut,CT,Hartford,09003,Hartford,905152,373641,43263,41.7661,-72.6834
+July,Connecticut,CT,New Haven,09009,New Haven,564830,393098,33701,41.3112,-72.9246
+July,District of Columbia,DC,District of Columbia,11001,Washington,5379184,345436,17731,38.9047,-77.0163
+July,Florida,FL,Brevard,12009,Palm Bay,507002,117966,1431,27.955,-80.6627
+July,Florida,FL,Duval,12031,Jacksonville,1181496,452826,3047,30.3322,-81.6749
+July,Florida,FL,Escambia,12033,Pensacola,346921,153654,1909,30.4427,-87.1886
+July,Florida,FL,Flagler,12035,Palm Coast,417007,18255,205,29.5392,-81.246
+July,Florida,FL,Hillsborough,12057,Tampa,2908063,655299,6940,27.9942,-82.4451
+July,Florida,FL,Lee,12071,Cape Coral,668382,344301,6673,26.6446,-81.9956
+July,Florida,FL,Leon,12073,Tallahassee,257601,85206,321,30.4551,-84.2526
+July,Florida,FL,Miami-Dade,12086,Miami,6445545,2368505,38279,25.7839,-80.2102
+July,Florida,FL,Orange,12095,Orlando,1822394,637810,3490,28.4772,-81.3369
+July,Florida,FL,Osceola,12097,Kissimmee,382720,162858,1227,28.3042,-81.4164
+July,Florida,FL,Pinellas,12103,St. Petersburg,265351,374260,8926,27.7931,-82.6652
+July,Florida,FL,Polk,12105,Lakeland,302284,261526,5170,28.0556,-81.9545
+July,Florida,FL,Sarasota,12115,Sarasota,722243,112504,3247,27.3386,-82.5431
+July,Florida,FL,St. Lucie,12111,Port St. Lucie,461152,103255,2359,27.2796,-80.3883
+July,Georgia,GA,Chatham,13051,Savannah,276295,94976,1327,32.0281,-81.1784
+July,Georgia,GA,Fulton,13121,Atlanta,5449398,379669,10539,33.7627,-84.4224
+July,Georgia,GA,Muscogee,13215,Columbus,261445,94641,1969,32.51,-84.8771
+July,Georgia,GA,Richmond,13245,Augusta,390809,63566,1992,33.3645,-82.0708
+July,Idaho,ID,Ada,16001,Boise,389280,157829,1047,43.6007,-116.2312
+July,Illinois,IL,Cook,17031,Chicago,8604203,3024198,147068,41.8373,-87.6862
+July,Illinois,IL,Lake,17097,Round Lake Beach,279381,331607,13361,42.379,-88.0811
+July,Illinois,IL,Peoria,17143,Peoria,256286,24382,950,40.752,-89.6153
+July,Illinois,IL,Winnebago,17201,Rockford,282762,102137,3332,42.2597,-89.0641
+July,Indiana,IN,Allen,18003,Fort Wayne,334122,95648,4633,41.0886,-85.1437
+July,Indiana,IN,Marion,18097,Indianapolis,1588961,394802,23136,39.7771,-86.1458
+July,Indiana,IN,St. Joseph,18141,South Bend,280498,73548,2369,41.6767,-86.2696
+July,Iowa,IA,Polk,19153,Des Moines,473957,244797,5798,41.5725,-93.6105
+July,Iowa,IA,Scott,19163,Davenport,285362,36178,323,41.5563,-90.6052
+July,Kansas,KS,Sedgwick,20173,Wichita,482249,83003,980,37.6896,-97.3442
+July,Kentucky,KY,Fayette,21067,Lexington,317110,70223,1172,38.0423,-84.4587
+July,Kentucky,KY,Jefferson,21111,Louisville,1005654,157234,7033,38.1663,-85.6485
+July,Louisiana,LA,Caddo,22017,Shreveport,280062,145984,7876,32.4656,-93.7956
+July,Louisiana,LA,East Baton Rouge,22033,Baton Rouge,570308,244122,8968,30.4418,-91.131
+July,Louisiana,LA,Lafayette,22055,Lafayette,264357,135340,1863,30.2084,-92.0323
+July,Louisiana,LA,Orleans,22071,New Orleans,1020886,280069,16853,30.0687,-89.9288
+July,Maryland,MD,Baltimore,24510,Baltimore,2106068,295912,15680,39.3051,-76.6144
+July,Massachusetts,MA,Hampden,25013,Springfield,623401,219485,21010,42.1155,-72.5395
+July,Massachusetts,MA,Suffolk,25025,Boston,4688346,634468,31881,42.3188,-71.0846
+July,Massachusetts,MA,Worcester,25027,Worcester,498328,396429,29839,42.2705,-71.8079
+July,Michigan,MI,Genesee,26049,Flint,332190,94431,9034,43.0235,-83.6922
+July,Michigan,MI,Ingham,26065,Lansing,324286,38385,908,42.7142,-84.5601
+July,Michigan,MI,Kent,26081,Grand Rapids,609314,188316,4499,42.962,-85.6562
+July,Michigan,MI,Washtenaw,26161,Ann Arbor,322267,78128,3670,42.2755,-83.7312
+July,Michigan,MI,Wayne,26163,Detroit,3506126,767095,85761,42.3834,-83.1024
+July,Minnesota,MN,Hennepin,27053,Minneapolis,2977172,443698,24684,44.9635,-93.2678
+July,Minnesota,MN,Ramsey,27123,St. Paul,308096,172279,7475,44.9477,-93.104
+July,Mississippi,MS,Hinds,28049,Jackson,325350,107180,1976,32.3163,-90.2124
+July,Missouri,MO,Greene,29077,Springfield,288090,21973,283,37.1943,-93.2916
+July,Missouri,MO,Jackson,29095,Kansas City,1636715,63490,1444,39.1239,-94.5541
+July,Missouri,MO,St. Louis,29510,St. Louis,2024074,275979,18885,38.6358,-90.2451
+July,Nebraska,NE,Douglas,31055,Omaha,847819,266467,3436,41.2627,-96.0522
+July,Nebraska,NE,Lancaster,31109,Lincoln,289490,72453,421,40.809,-96.6788
+July,Nevada,NV,Clark,32003,Las Vegas,2104198,854844,16232,36.2333,-115.2654
+July,Nevada,NV,Washoe,32031,Reno,445020,122763,2993,39.5497,-119.8483
+July,New Jersey,NJ,Essex,34013,Newark,282011,599586,64344,40.7245,-74.1725
+July,New Jersey,NJ,Hudson,34017,Jersey City,262075,600099,46013,40.7161,-74.0682
+July,New Jersey,NJ,Mercer,34021,Trenton,290716,243966,18657,40.2236,-74.7641
+July,New Mexico,NM,Bernalillo,35001,Albuquerque,761195,107394,3097,35.1053,-106.6464
+July,New York,NY,Albany,36001,Albany,586383,71103,5058,42.6664,-73.7987
+July,New York,NY,Dutchess,36027,Poughkeepsie,394760,134446,4981,41.6949,-73.921
+July,New York,NY,Erie,36029,Buffalo,914341,245216,18853,42.9016,-78.8487
+July,New York,NY,Monroe,36055,Rochester,703952,133003,8188,43.168,-77.6162
+July,New York,NY,Onondaga,36067,Syracuse,404223,98992,5656,43.0409,-76.1438
+July,North Carolina,NC,Buncombe,37021,Asheville,312507,32493,1440,35.5704,-82.5536
+July,North Carolina,NC,Cabarrus,37025,Concord,261801,54959,1082,35.3933,-80.6366
+July,North Carolina,NC,Cumberland,37051,Fayetteville,327435,56810,1378,35.0846,-78.9776
+July,North Carolina,NC,Durham,37063,Durham,424700,150207,2216,35.9794,-78.9031
+July,North Carolina,NC,Forsyth,37067,Winston-Salem,422269,122574,1247,36.1029,-80.2611
+July,North Carolina,NC,Guilford,37081,Greensboro,343090,121883,3997,36.0956,-79.8269
+July,North Carolina,NC,Mecklenburg,37119,Charlotte,1512923,501541,5404,35.208,-80.8304
+July,North Carolina,NC,New Hanover,37129,Wilmington,255616,50537,328,34.21,-77.8866
+July,North Carolina,NC,Wake,37183,Raleigh,1038738,253757,2548,35.8325,-78.6435
+July,Ohio,OH,Cuyahoga,39035,Cleveland,1710093,305127,12785,41.4767,-81.6804
+July,Ohio,OH,Franklin,39049,Columbus,1562009,405598,14212,39.9862,-82.985
+July,Ohio,OH,Hamilton,39061,Cincinnati,1662691,226187,6649,39.1413,-84.5061
+July,Ohio,OH,Lucas,39095,Toledo,482111,105002,9510,41.6639,-83.5822
+July,Ohio,OH,Mahoning,39099,Youngstown,378732,63353,7448,41.0993,-80.6463
+July,Ohio,OH,Montgomery,39113,Dayton,718353,86533,1321,39.7797,-84.1998
+July,Ohio,OH,Stark,39151,Canton,269418,40767,3664,40.8075,-81.3677
+July,Ohio,OH,Summit,39153,Akron,565208,78284,6517,41.0798,-81.5219
+July,Oklahoma,OK,Oklahoma,40109,Oklahoma City,972943,176915,2451,35.4676,-97.5136
+July,Oklahoma,OK,Tulsa,40143,Tulsa,671033,182527,2523,36.1284,-95.9042
+July,Oregon,OR,Lane,41039,Eugene,273439,10575,93,44.0563,-123.1173
+July,Oregon,OR,Marion,41047,Salem,266804,62879,1769,44.9231,-123.0246
+July,Oregon,OR,Multnomah,41051,Portland,2074775,100369,2404,45.5372,-122.65
+July,Pennsylvania,PA,Allegheny,42003,Pittsburgh,1703266,173671,6420,40.4396,-79.9762
+July,Pennsylvania,PA,Berks,42011,Reading,267155,148670,11112,40.34,-75.9267
+July,Pennsylvania,PA,Dauphin,42043,Harrisburg,442289,73278,4590,40.2752,-76.8843
+July,Pennsylvania,PA,Lackawanna,42069,Scranton,384250,55519,6509,41.4044,-75.6649
+July,Pennsylvania,PA,Lancaster,42071,Lancaster,401524,153841,11970,40.0421,-76.3012
+July,Pennsylvania,PA,Lehigh,42077,Allentown,683794,139672,10056,40.5961,-75.4756
+July,Pennsylvania,PA,Philadelphia,42101,Philadelphia,5649300,871657,51212,40.0077,-75.1339
+July,Rhode Island,RI,Providence,44007,Providence,1203230,421198,24250,41.823,-71.4187
+July,South Carolina,SC,Charleston,45019,Charleston,628377,258957,2617,32.8153,-79.9628
+July,South Carolina,SC,Greenville,45045,Greenville,484465,239524,3800,34.8353,-82.3647
+July,South Carolina,SC,Horry,45051,Myrtle Beach,275579,189999,2527,33.7096,-78.8843
+July,South Carolina,SC,Richland,45079,Columbia,560041,173590,3281,34.0376,-80.9037
+July,Tennessee,TN,Davidson,47037,Nashville,1081903,496152,4857,36.1715,-86.7843
+July,Tennessee,TN,Hamilton,47065,Chattanooga,415501,122722,1220,35.0657,-85.2488
+July,Tennessee,TN,Knox,47093,Knoxville,586048,68214,504,35.9692,-83.9496
+July,Tennessee,TN,Shelby,47157,Memphis,1066967,476908,7283,35.1046,-89.9773
+July,Texas,TX,Bell,48027,Killeen,258009,73904,532,31.0754,-97.7296
+July,Texas,TX,Bexar,48029,San Antonio,2049293,801393,7977,29.4658,-98.5253
+July,Texas,TX,Collin,48085,Plano,287677,151436,1933,33.0502,-96.7487
+July,Texas,TX,Dallas,48113,Dallas,5743938,1152877,15678,32.7936,-96.7662
+July,Texas,TX,Denton,48121,Denton,457177,146167,1419,33.2176,-97.1419
+July,Texas,TX,El Paso,48141,El Paso,843386,322845,5545,31.8479,-106.4309
+July,Texas,TX,Harris,48201,Houston,5464251,1602774,18544,29.7863,-95.3889
+July,Texas,TX,Hidalgo,48215,McAllen,804114,321363,8424,26.2273,-98.2471
+July,Texas,TX,Lubbock,48303,Lubbock,267648,126327,1967,33.5659,-101.8878
+July,Texas,TX,Nueces,48355,Corpus Christi,342464,231780,2514,27.726,-97.3755
+July,Texas,TX,Tarrant,48439,Fort Worth,909585,628107,8999,32.7811,-97.3473
+July,Texas,TX,Travis,48453,Austin,1687311,499969,6021,30.3004,-97.7522
+July,Texas,TX,Webb,48479,Laredo,262079,110774,1991,27.5629,-99.4875
+July,Utah,UT,Salt Lake,49035,Salt Lake City,1098526,482511,4289,40.7777,-111.9306
+July,Utah,UT,Utah,49049,Provo,500617,182722,878,40.2457,-111.6457
+July,Utah,UT,Weber,49057,Ogden,578523,55654,578,41.2278,-111.9682
+July,Virginia,VA,Richmond,51760,Richmond,1075798,9600,133,37.5295,-77.4756
+July,Washington,WA,King,53033,Seattle,3789215,393928,20028,47.6211,-122.3244
+July,Washington,WA,Spokane,53063,Spokane,412275,77040,1442,47.6671,-117.433
+July,Wisconsin,WI,Dane,55025,Madison,447245,98527,1026,43.0826,-89.3931
+July,Wisconsin,WI,Milwaukee,55079,Milwaukee,1365787,471688,12660,43.0642,-87.9673
+June,Alabama,AL,Jefferson,01073,Birmingham,739573,81233,3593,33.5277,-86.7987
+June,Alabama,AL,Madison,01089,Huntsville,319249,18307,165,34.6988,-86.6412
+June,Alabama,AL,Mobile,01097,Mobile,315502,84551,3871,30.6783,-88.1162
+June,Alabama,AL,Montgomery,01101,Montgomery,254634,84309,2117,32.3473,-86.2666
+June,Arizona,AZ,Maricopa,04013,Phoenix,4219697,723691,17543,33.5722,-112.0891
+June,Arizona,AZ,Pima,04019,Tucson,888486,138281,6901,32.1545,-110.8782
+June,Arkansas,AR,Pulaski,05119,Little Rock,439815,41206,1360,34.7256,-92.3576
+June,Arkansas,AR,Washington,05143,Fayetteville,351246,58004,456,36.0713,-94.166
+June,California,CA,Alameda,06001,Oakland,433031,136574,3458,37.7903,-122.2165
+June,California,CA,Contra Costa,06013,Concord,652308,62840,1576,37.9722,-122.0016
+June,California,CA,Fresno,06019,Fresno,703498,90237,1702,36.7831,-119.7941
+June,California,CA,Kern,06029,Bakersfield,579295,102961,1686,35.3529,-119.0359
+June,California,CA,Los Angeles,06037,Los Angeles,12750807,2295011,87756,34.1139,-118.4068
+June,California,CA,Orange,06059,Mission Viejo,590249,281375,7088,33.6095,-117.655
+June,California,CA,Riverside,06065,Riverside,2107852,356709,11814,33.9381,-117.3948
+June,California,CA,Sacramento,06067,Sacramento,1898019,59694,1905,38.5667,-121.4683
+June,California,CA,San Bernardino,06071,Victorville,346789,245387,6906,34.5277,-117.3536
+June,California,CA,San Diego,06073,San Diego,3220118,304368,9876,32.8312,-117.1225
+June,California,CA,San Francisco,06075,San Francisco,3592294,90185,1374,37.7562,-122.443
+June,California,CA,San Joaquin,06077,Stockton,397264,57954,1319,37.9765,-121.3109
+June,California,CA,Santa Clara,06085,San Jose,1798103,100730,4540,37.3019,-121.8486
+June,California,CA,Sonoma,06097,Santa Rosa,324634,24333,134,38.4458,-122.7067
+June,California,CA,Stanislaus,06099,Modesto,383134,41427,1043,37.6374,-121.0028
+June,California,CA,Ventura,06111,Oxnard,387647,52863,1197,34.1963,-119.1815
+June,Colorado,CO,Adams,08001,Aurora,379289,113100,4336,39.7087,-104.7273
+June,Colorado,CO,Denver,08031,Denver,2876625,192911,10750,39.7621,-104.8759
+June,Colorado,CO,El Paso,08041,Colorado Springs,642413,60279,3224,38.8674,-104.7606
+June,Colorado,CO,Larimer,08069,Fort Collins,312666,19681,850,40.5478,-105.0656
+June,Connecticut,CT,Fairfield,09001,Bridgeport,924449,488451,40226,41.1918,-73.1953
+June,Connecticut,CT,Hartford,09003,Hartford,905152,334531,39652,41.7661,-72.6834
+June,Connecticut,CT,New Haven,09009,New Haven,564830,360282,31154,41.3112,-72.9246
+June,District of Columbia,DC,District of Columbia,11001,Washington,5379184,291828,15437,38.9047,-77.0163
+June,Florida,FL,Brevard,12009,Palm Bay,507002,23466,449,27.955,-80.6627
+June,Florida,FL,Duval,12031,Jacksonville,1181496,82033,1738,30.3322,-81.6749
+June,Florida,FL,Escambia,12033,Pensacola,346921,33889,1171,30.4427,-87.1886
+June,Florida,FL,Flagler,12035,Palm Coast,417007,6713,139,29.5392,-81.246
+June,Florida,FL,Hillsborough,12057,Tampa,2908063,146871,3169,27.9942,-82.4451
+June,Florida,FL,Lee,12071,Cape Coral,668382,96874,4015,26.6446,-81.9956
+June,Florida,FL,Leon,12073,Tallahassee,257601,16702,231,30.4551,-84.2526
+June,Florida,FL,Miami-Dade,12086,Miami,6445545,720782,25233,25.7839,-80.2102
+June,Florida,FL,Orange,12095,Orlando,1822394,132153,1412,28.4772,-81.3369
+June,Florida,FL,Osceola,12097,Kissimmee,382720,30814,656,28.3042,-81.4164
+June,Florida,FL,Pinellas,12103,St. Petersburg,265351,90467,3392,27.7931,-82.6652
+June,Florida,FL,Polk,12105,Lakeland,302284,55812,2257,28.0556,-81.9545
+June,Florida,FL,Sarasota,12115,Sarasota,722243,26757,2701,27.3386,-82.5431
+June,Florida,FL,St. Lucie,12111,Port St. Lucie,461152,29879,1120,27.2796,-80.3883
+June,Georgia,GA,Chatham,13051,Savannah,276295,22033,931,32.0281,-81.1784
+June,Georgia,GA,Fulton,13121,Atlanta,5449398,162359,8525,33.7627,-84.4224
+June,Georgia,GA,Muscogee,13215,Columbus,261445,32222,902,32.51,-84.8771
+June,Georgia,GA,Richmond,13245,Augusta,390809,21356,1141,33.3645,-82.0708
+June,Idaho,ID,Ada,16001,Boise,389280,34598,667,43.6007,-116.2312
+June,Illinois,IL,Cook,17031,Chicago,8604203,2556425,126220,41.8373,-87.6862
+June,Illinois,IL,Lake,17097,Round Lake Beach,279381,273504,11248,42.379,-88.0811
+June,Illinois,IL,Peoria,17143,Peoria,256286,11534,600,40.752,-89.6153
+June,Illinois,IL,Winnebago,17201,Rockford,282762,82125,2441,42.2597,-89.0641
+June,Indiana,IN,Allen,18003,Fort Wayne,334122,66246,2864,41.0886,-85.1437
+June,Indiana,IN,Marion,18097,Indianapolis,1588961,324123,20747,39.7771,-86.1458
+June,Indiana,IN,St. Joseph,18141,South Bend,280498,47121,1650,41.6767,-86.2696
+June,Iowa,IA,Polk,19153,Des Moines,473957,156182,4771,41.5725,-93.6105
+June,Iowa,IA,Scott,19163,Davenport,285362,13315,300,41.5563,-90.6052
+June,Kansas,KS,Sedgwick,20173,Wichita,482249,24736,729,37.6896,-97.3442
+June,Kentucky,KY,Fayette,21067,Lexington,317110,33690,561,38.0423,-84.4587
+June,Kentucky,KY,Jefferson,21111,Louisville,1005654,100243,5675,38.1663,-85.6485
+June,Louisiana,LA,Caddo,22017,Shreveport,280062,86501,6459,32.4656,-93.7956
+June,Louisiana,LA,East Baton Rouge,22033,Baton Rouge,570308,128706,7734,30.4418,-91.131
+June,Louisiana,LA,Lafayette,22055,Lafayette,264357,38242,988,30.2084,-92.0323
+June,Louisiana,LA,Orleans,22071,New Orleans,1020886,222802,15615,30.0687,-89.9288
+June,Maryland,MD,Baltimore,24510,Baltimore,2106068,216614,12662,39.3051,-76.6144
+June,Massachusetts,MA,Hampden,25013,Springfield,623401,194835,19105,42.1155,-72.5395
+June,Massachusetts,MA,Suffolk,25025,Boston,4688346,579350,28652,42.3188,-71.0846
+June,Massachusetts,MA,Worcester,25027,Worcester,498328,358712,26037,42.2705,-71.8079
+June,Michigan,MI,Genesee,26049,Flint,332190,76007,8378,43.0235,-83.6922
+June,Michigan,MI,Ingham,26065,Lansing,324286,25407,851,42.7142,-84.5601
+June,Michigan,MI,Kent,26081,Grand Rapids,609314,132627,3448,42.962,-85.6562
+June,Michigan,MI,Washtenaw,26161,Ann Arbor,322267,62361,3351,42.2755,-83.7312
+June,Michigan,MI,Wayne,26163,Detroit,3506126,653604,79522,42.3834,-83.1024
+June,Minnesota,MN,Hennepin,27053,Minneapolis,2977172,306713,21396,44.9635,-93.2678
+June,Minnesota,MN,Ramsey,27123,St. Paul,308096,118778,5554,44.9477,-93.104
+June,Mississippi,MS,Hinds,28049,Jackson,325350,42111,884,32.3163,-90.2124
+June,Missouri,MO,Greene,29077,Springfield,288090,7067,247,37.1943,-93.2916
+June,Missouri,MO,Jackson,29095,Kansas City,1636715,26685,795,39.1239,-94.5541
+June,Missouri,MO,St. Louis,29510,St. Louis,2024074,168765,15363,38.6358,-90.2451
+June,Nebraska,NE,Douglas,31055,Omaha,847819,176895,1971,41.2627,-96.0522
+June,Nebraska,NE,Lancaster,31109,Lincoln,289490,44966,311,40.809,-96.6788
+June,Nevada,NV,Clark,32003,Las Vegas,2104198,288290,11464,36.2333,-115.2654
+June,Nevada,NV,Washoe,32031,Reno,445020,61810,2087,39.5497,-119.8483
+June,New Jersey,NJ,Essex,34013,Newark,282011,551730,53611,40.7245,-74.1725
+June,New Jersey,NJ,Hudson,34017,Jersey City,262075,561620,38392,40.7161,-74.0682
+June,New Jersey,NJ,Mercer,34021,Trenton,290716,221098,15721,40.2236,-74.7641
+June,New Mexico,NM,Bernalillo,35001,Albuquerque,761195,52452,2378,35.1053,-106.6464
+June,New York,NY,Albany,36001,Albany,586383,60476,4591,42.6664,-73.7987
+June,New York,NY,Dutchess,36027,Poughkeepsie,394760,122251,4667,41.6949,-73.921
+June,New York,NY,Erie,36029,Buffalo,914341,203688,17175,42.9016,-78.8487
+June,New York,NY,Monroe,36055,Rochester,703952,101374,7365,43.168,-77.6162
+June,New York,NY,Onondaga,36067,Syracuse,404223,76393,4819,43.0409,-76.1438
+June,North Carolina,NC,Buncombe,37021,Asheville,312507,13701,1013,35.5704,-82.5536
+June,North Carolina,NC,Cabarrus,37025,Concord,261801,22611,737,35.3933,-80.6366
+June,North Carolina,NC,Cumberland,37051,Fayetteville,327435,27453,927,35.0846,-78.9776
+June,North Carolina,NC,Durham,37063,Durham,424700,82768,1709,35.9794,-78.9031
+June,North Carolina,NC,Forsyth,37067,Winston-Salem,422269,66842,733,36.1029,-80.2611
+June,North Carolina,NC,Guilford,37081,Greensboro,343090,62880,2854,36.0956,-79.8269
+June,North Carolina,NC,Mecklenburg,37119,Charlotte,1512923,223770,3820,35.208,-80.8304
+June,North Carolina,NC,New Hanover,37129,Wilmington,255616,13373,150,34.21,-77.8866
+June,North Carolina,NC,Wake,37183,Raleigh,1038738,99097,1282,35.8325,-78.6435
+June,Ohio,OH,Cuyahoga,39035,Cleveland,1710093,162653,9307,41.4767,-81.6804
+June,Ohio,OH,Franklin,39049,Columbus,1562009,220354,10100,39.9862,-82.985
+June,Ohio,OH,Hamilton,39061,Cincinnati,1662691,105792,5378,39.1413,-84.5061
+June,Ohio,OH,Lucas,39095,Toledo,482111,73177,8435,41.6639,-83.5822
+June,Ohio,OH,Mahoning,39099,Youngstown,378732,47859,6322,41.0993,-80.6463
+June,Ohio,OH,Montgomery,39113,Dayton,718353,32627,560,39.7797,-84.1998
+June,Ohio,OH,Stark,39151,Canton,269418,26619,3142,40.8075,-81.3677
+June,Ohio,OH,Summit,39153,Akron,565208,50692,5788,41.0798,-81.5219
+June,Oklahoma,OK,Oklahoma,40109,Oklahoma City,972943,55118,1951,35.4676,-97.5136
+June,Oklahoma,OK,Tulsa,40143,Tulsa,671033,58034,1885,36.1284,-95.9042
+June,Oregon,OR,Lane,41039,Eugene,273439,2914,90,44.0563,-123.1173
+June,Oregon,OR,Marion,41047,Salem,266804,36299,975,44.9231,-123.0246
+June,Oregon,OR,Multnomah,41051,Portland,2074775,48559,2006,45.5372,-122.65
+June,Pennsylvania,PA,Allegheny,42003,Pittsburgh,1703266,64877,5247,40.4396,-79.9762
+June,Pennsylvania,PA,Berks,42011,Reading,267155,129714,10153,40.34,-75.9267
+June,Pennsylvania,PA,Dauphin,42043,Harrisburg,442289,49957,3267,40.2752,-76.8843
+June,Pennsylvania,PA,Lackawanna,42069,Scranton,384250,48383,5808,41.4044,-75.6649
+June,Pennsylvania,PA,Lancaster,42071,Lancaster,401524,114103,10003,40.0421,-76.3012
+June,Pennsylvania,PA,Lehigh,42077,Allentown,683794,119724,8021,40.5961,-75.4756
+June,Pennsylvania,PA,Philadelphia,42101,Philadelphia,5649300,734803,44937,40.0077,-75.1339
+June,Rhode Island,RI,Providence,44007,Providence,1203230,362476,18827,41.823,-71.4187
+June,South Carolina,SC,Charleston,45019,Charleston,628377,47928,514,32.8153,-79.9628
+June,South Carolina,SC,Greenville,45045,Greenville,484465,93301,2064,34.8353,-82.3647
+June,South Carolina,SC,Horry,45051,Myrtle Beach,275579,44674,1071,33.7096,-78.8843
+June,South Carolina,SC,Richland,45079,Columbia,560041,70456,2213,34.0376,-80.9037
+June,Tennessee,TN,Davidson,47037,Nashville,1081903,220499,2632,36.1715,-86.7843
+June,Tennessee,TN,Hamilton,47065,Chattanooga,415501,56248,693,35.0657,-85.2488
+June,Tennessee,TN,Knox,47093,Knoxville,586048,18988,150,35.9692,-83.9496
+June,Tennessee,TN,Shelby,47157,Memphis,1066967,215594,4555,35.1046,-89.9773
+June,Texas,TX,Bell,48027,Killeen,258009,21078,242,31.0754,-97.7296
+June,Texas,TX,Bexar,48029,San Antonio,2049293,170377,2714,29.4658,-98.5253
+June,Texas,TX,Collin,48085,Plano,287677,58453,1134,33.0502,-96.7487
+June,Texas,TX,Dallas,48113,Dallas,5743938,453980,8893,32.7936,-96.7662
+June,Texas,TX,Denton,48121,Denton,457177,58297,1059,33.2176,-97.1419
+June,Texas,TX,El Paso,48141,El Paso,843386,122784,3211,31.8479,-106.4309
+June,Texas,TX,Harris,48201,Houston,5464251,589097,8966,29.7863,-95.3889
+June,Texas,TX,Hidalgo,48215,McAllen,804114,46307,576,26.2273,-98.2471
+June,Texas,TX,Lubbock,48303,Lubbock,267648,35212,1519,33.5659,-101.8878
+June,Texas,TX,Nueces,48355,Corpus Christi,342464,20935,136,27.726,-97.3755
+June,Texas,TX,Tarrant,48439,Fort Worth,909585,241848,5924,32.7811,-97.3473
+June,Texas,TX,Travis,48453,Austin,1687311,159731,3184,30.3004,-97.7522
+June,Texas,TX,Webb,48479,Laredo,262079,24572,631,27.5629,-99.4875
+June,Utah,UT,Salt Lake,49035,Salt Lake City,1098526,236195,2811,40.7777,-111.9306
+June,Utah,UT,Utah,49049,Provo,500617,84857,580,40.2457,-111.6457
+June,Utah,UT,Weber,49057,Ogden,578523,16305,273,41.2278,-111.9682
+June,Virginia,VA,Richmond,51760,Richmond,1075798,8872,161,37.5295,-77.4756
+June,Washington,WA,King,53033,Seattle,3789215,269119,17805,47.6211,-122.3244
+June,Washington,WA,Spokane,53063,Spokane,412275,27123,1107,47.6671,-117.433
+June,Wisconsin,WI,Dane,55025,Madison,447245,32225,923,43.0826,-89.3931
+June,Wisconsin,WI,Milwaukee,55079,Milwaukee,1365787,290471,10557,43.0642,-87.9673
+May,Alabama,AL,Jefferson,01073,Birmingham,739573,41235,2278,33.5277,-86.7987
+May,Alabama,AL,Madison,01089,Huntsville,319249,8477,124,34.6988,-86.6412
+May,Alabama,AL,Mobile,01097,Mobile,315502,52075,2938,30.6783,-88.1162
+May,Alabama,AL,Montgomery,01101,Montgomery,254634,27778,676,32.3473,-86.2666
+May,Arizona,AZ,Maricopa,04013,Phoenix,4219697,214115,9325,33.5722,-112.0891
+May,Arizona,AZ,Pima,04019,Tucson,888486,54956,4559,32.1545,-110.8782
+May,Arkansas,AR,Pulaski,05119,Little Rock,439815,21377,784,34.7256,-92.3576
+May,Arkansas,AR,Washington,05143,Fayetteville,351246,5801,140,36.0713,-94.166
+May,California,CA,Alameda,06001,Oakland,433031,75140,2553,37.7903,-122.2165
+May,California,CA,Contra Costa,06013,Concord,652308,35828,1023,37.9722,-122.0016
+May,California,CA,Fresno,06019,Fresno,703498,36149,537,36.7831,-119.7941
+May,California,CA,Kern,06029,Bakersfield,579295,46703,708,35.3529,-119.0359
+May,California,CA,Los Angeles,06037,Los Angeles,12750807,1172311,55009,34.1139,-118.4068
+May,California,CA,Orange,06059,Mission Viejo,590249,133479,2939,33.6095,-117.655
+May,California,CA,Riverside,06065,Riverside,2107852,178720,7791,33.9381,-117.3948
+May,California,CA,Sacramento,06067,Sacramento,1898019,38041,1642,38.5667,-121.4683
+May,California,CA,San Bernardino,06071,Victorville,346789,109214,4526,34.5277,-117.3536
+May,California,CA,San Diego,06073,San Diego,3220118,176630,7094,32.8312,-117.1225
+May,California,CA,San Francisco,06075,San Francisco,3592294,64550,1108,37.7562,-122.443
+May,California,CA,San Joaquin,06077,Stockton,397264,21294,952,37.9765,-121.3109
+May,California,CA,Santa Clara,06085,San Jose,1798103,75932,4130,37.3019,-121.8486
+May,California,CA,Sonoma,06097,Santa Rosa,324634,12071,122,38.4458,-122.7067
+May,California,CA,Stanislaus,06099,Modesto,383134,17307,708,37.6374,-121.0028
+May,California,CA,Ventura,06111,Oxnard,387647,24937,776,34.1963,-119.1815
+May,Colorado,CO,Adams,08001,Aurora,379289,77475,2965,39.7087,-104.7273
+May,Colorado,CO,Denver,08031,Denver,2876625,139608,7784,39.7621,-104.8759
+May,Colorado,CO,El Paso,08041,Colorado Springs,642413,40424,2562,38.8674,-104.7606
+May,Colorado,CO,Larimer,08069,Fort Collins,312666,14948,648,40.5478,-105.0656
+May,Connecticut,CT,Fairfield,09001,Bridgeport,924449,431885,34030,41.1918,-73.1953
+May,Connecticut,CT,Hartford,09003,Hartford,905152,256613,31552,41.7661,-72.6834
+May,Connecticut,CT,New Haven,09009,New Haven,564830,305622,24254,41.3112,-72.9246
+May,District of Columbia,DC,District of Columbia,11001,Washington,5379184,215106,11296,38.9047,-77.0163
+May,Florida,FL,Brevard,12009,Palm Bay,507002,11095,309,27.955,-80.6627
+May,Florida,FL,Duval,12031,Jacksonville,1181496,39700,1076,30.3322,-81.6749
+May,Florida,FL,Escambia,12033,Pensacola,346921,21296,657,30.4427,-87.1886
+May,Florida,FL,Flagler,12035,Palm Coast,417007,4934,118,29.5392,-81.246
+May,Florida,FL,Hillsborough,12057,Tampa,2908063,50528,1626,27.9942,-82.4451
+May,Florida,FL,Lee,12071,Cape Coral,668382,45070,2362,26.6446,-81.9956
+May,Florida,FL,Leon,12073,Tallahassee,257601,9218,177,30.4551,-84.2526
+May,Florida,FL,Miami-Dade,12086,Miami,6445545,472911,16791,25.7839,-80.2102
+May,Florida,FL,Orange,12095,Orlando,1822394,51136,1122,28.4772,-81.3369
+May,Florida,FL,Osceola,12097,Kissimmee,382720,18707,463,28.3042,-81.4164
+May,Florida,FL,Pinellas,12103,St. Petersburg,265351,31040,2003,27.7931,-82.6652
+May,Florida,FL,Polk,12105,Lakeland,302284,22833,1249,28.0556,-81.9545
+May,Florida,FL,Sarasota,12115,Sarasota,722243,15410,1902,27.3386,-82.5431
+May,Florida,FL,St. Lucie,12111,Port St. Lucie,461152,10319,832,27.2796,-80.3883
+May,Georgia,GA,Chatham,13051,Savannah,276295,11263,496,32.0281,-81.1784
+May,Georgia,GA,Fulton,13121,Atlanta,5449398,114973,5268,33.7627,-84.4224
+May,Georgia,GA,Muscogee,13215,Columbus,261445,13853,435,32.51,-84.8771
+May,Georgia,GA,Richmond,13245,Augusta,390809,15224,541,33.3645,-82.0708
+May,Idaho,ID,Ada,16001,Boise,389280,23629,647,43.6007,-116.2312
+May,Illinois,IL,Cook,17031,Chicago,8604203,1868375,84568,41.8373,-87.6862
+May,Illinois,IL,Lake,17097,Round Lake Beach,279381,192707,6526,42.379,-88.0811
+May,Illinois,IL,Peoria,17143,Peoria,256286,4852,185,40.752,-89.6153
+May,Illinois,IL,Winnebago,17201,Rockford,282762,42597,1203,42.2597,-89.0641
+May,Indiana,IN,Allen,18003,Fort Wayne,334122,31643,2101,41.0886,-85.1437
+May,Indiana,IN,Marion,18097,Indianapolis,1588961,251649,15486,39.7771,-86.1458
+May,Indiana,IN,St. Joseph,18141,South Bend,280498,29738,1031,41.6767,-86.2696
+May,Iowa,IA,Polk,19153,Des Moines,473957,88064,2450,41.5725,-93.6105
+May,Iowa,IA,Scott,19163,Davenport,285362,9350,257,41.5563,-90.6052
+May,Kansas,KS,Sedgwick,20173,Wichita,482249,15783,585,37.6896,-97.3442
+May,Kentucky,KY,Fayette,21067,Lexington,317110,15544,345,38.0423,-84.4587
+May,Kentucky,KY,Jefferson,21111,Louisville,1005654,60106,4022,38.1663,-85.6485
+May,Louisiana,LA,Caddo,22017,Shreveport,280062,61464,4631,32.4656,-93.7956
+May,Louisiana,LA,East Baton Rouge,22033,Baton Rouge,570308,88668,6232,30.4418,-91.131
+May,Louisiana,LA,Lafayette,22055,Lafayette,264357,17937,698,30.2084,-92.0323
+May,Louisiana,LA,Orleans,22071,New Orleans,1020886,210998,14953,30.0687,-89.9288
+May,Maryland,MD,Baltimore,24510,Baltimore,2106068,141140,7425,39.3051,-76.6144
+May,Massachusetts,MA,Hampden,25013,Springfield,623401,157382,15226,42.1155,-72.5395
+May,Massachusetts,MA,Suffolk,25025,Boston,4688346,497778,23303,42.3188,-71.0846
+May,Massachusetts,MA,Worcester,25027,Worcester,498328,272644,16694,42.2705,-71.8079
+May,Michigan,MI,Genesee,26049,Flint,332190,56855,7059,43.0235,-83.6922
+May,Michigan,MI,Ingham,26065,Lansing,324286,19420,618,42.7142,-84.5601
+May,Michigan,MI,Kent,26081,Grand Rapids,609314,84436,1717,42.962,-85.6562
+May,Michigan,MI,Washtenaw,26161,Ann Arbor,322267,44451,2893,42.2755,-83.7312
+May,Michigan,MI,Wayne,26163,Detroit,3506126,583566,67930,42.3834,-83.1024
+May,Minnesota,MN,Hennepin,27053,Minneapolis,2977172,154669,13738,44.9635,-93.2678
+May,Minnesota,MN,Ramsey,27123,St. Paul,308096,47509,2137,44.9477,-93.104
+May,Mississippi,MS,Hinds,28049,Jackson,325350,23315,570,32.3163,-90.2124
+May,Missouri,MO,Greene,29077,Springfield,288090,3341,248,37.1943,-93.2916
+May,Missouri,MO,Jackson,29095,Kansas City,1636715,13746,497,39.1239,-94.5541
+May,Missouri,MO,St. Louis,29510,St. Louis,2024074,126917,9617,38.6358,-90.2451
+May,Nebraska,NE,Douglas,31055,Omaha,847819,71469,749,41.2627,-96.0522
+May,Nebraska,NE,Lancaster,31109,Lincoln,289490,24360,155,40.809,-96.6788
+May,Nevada,NV,Clark,32003,Las Vegas,2104198,165400,8893,36.2333,-115.2654
+May,Nevada,NV,Washoe,32031,Reno,445020,38084,1407,39.5497,-119.8483
+May,New Jersey,NJ,Essex,34013,Newark,282011,499652,46204,40.7245,-74.1725
+May,New Jersey,NJ,Hudson,34017,Jersey City,262075,533051,31948,40.7161,-74.0682
+May,New Jersey,NJ,Mercer,34021,Trenton,290716,177092,11759,40.2236,-74.7641
+May,New Mexico,NM,Bernalillo,35001,Albuquerque,761195,36597,1725,35.1053,-106.6464
+May,New York,NY,Albany,36001,Albany,586383,48495,3598,42.6664,-73.7987
+May,New York,NY,Dutchess,36027,Poughkeepsie,394760,109213,3686,41.6949,-73.921
+May,New York,NY,Erie,36029,Buffalo,914341,150738,12723,42.9016,-78.8487
+May,New York,NY,Monroe,36055,Rochester,703952,68209,4983,43.168,-77.6162
+May,New York,NY,Onondaga,36067,Syracuse,404223,47168,2624,43.0409,-76.1438
+May,North Carolina,NC,Buncombe,37021,Asheville,312507,5306,244,35.5704,-82.5536
+May,North Carolina,NC,Cabarrus,37025,Concord,261801,11874,577,35.3933,-80.6366
+May,North Carolina,NC,Cumberland,37051,Fayetteville,327435,14072,366,35.0846,-78.9776
+May,North Carolina,NC,Durham,37063,Durham,424700,32819,1154,35.9794,-78.9031
+May,North Carolina,NC,Forsyth,37067,Winston-Salem,422269,20109,209,36.1029,-80.2611
+May,North Carolina,NC,Guilford,37081,Greensboro,343090,24812,1408,36.0956,-79.8269
+May,North Carolina,NC,Mecklenburg,37119,Charlotte,1512923,81081,2064,35.208,-80.8304
+May,North Carolina,NC,New Hanover,37129,Wilmington,255616,3828,104,34.21,-77.8866
+May,North Carolina,NC,Wake,37183,Raleigh,1038738,37778,860,35.8325,-78.6435
+May,Ohio,OH,Cuyahoga,39035,Cleveland,1710093,101645,5342,41.4767,-81.6804
+May,Ohio,OH,Franklin,39049,Columbus,1562009,134783,5198,39.9862,-82.985
+May,Ohio,OH,Hamilton,39061,Cincinnati,1662691,62296,3442,39.1413,-84.5061
+May,Ohio,OH,Lucas,39095,Toledo,482111,58017,5921,41.6639,-83.5822
+May,Ohio,OH,Mahoning,39099,Youngstown,378732,36901,4306,41.0993,-80.6463
+May,Ohio,OH,Montgomery,39113,Dayton,718353,14932,388,39.7797,-84.1998
+May,Ohio,OH,Stark,39151,Canton,269418,17455,2277,40.8075,-81.3677
+May,Ohio,OH,Summit,39153,Akron,565208,31746,3466,41.0798,-81.5219
+May,Oklahoma,OK,Oklahoma,40109,Oklahoma City,972943,32485,1463,35.4676,-97.5136
+May,Oklahoma,OK,Tulsa,40143,Tulsa,671033,24459,1239,36.1284,-95.9042
+May,Oregon,OR,Lane,41039,Eugene,273439,1933,64,44.0563,-123.1173
+May,Oregon,OR,Marion,41047,Salem,266804,23948,710,44.9231,-123.0246
+May,Oregon,OR,Multnomah,41051,Portland,2074775,29373,1678,45.5372,-122.65
+May,Pennsylvania,PA,Allegheny,42003,Pittsburgh,1703266,49878,4241,40.4396,-79.9762
+May,Pennsylvania,PA,Berks,42011,Reading,267155,109522,6860,40.34,-75.9267
+May,Pennsylvania,PA,Dauphin,42043,Harrisburg,442289,28923,1444,40.2752,-76.8843
+May,Pennsylvania,PA,Lackawanna,42069,Scranton,384250,40004,4056,41.4044,-75.6649
+May,Pennsylvania,PA,Lancaster,42071,Lancaster,401524,77135,7755,40.0421,-76.3012
+May,Pennsylvania,PA,Lehigh,42077,Allentown,683794,104937,4781,40.5961,-75.4756
+May,Pennsylvania,PA,Philadelphia,42101,Philadelphia,5649300,599386,31848,40.0077,-75.1339
+May,Rhode Island,RI,Providence,44007,Providence,1203230,279445,10446,41.823,-71.4187
+May,South Carolina,SC,Charleston,45019,Charleston,628377,15956,314,32.8153,-79.9628
+May,South Carolina,SC,Greenville,45045,Greenville,484465,33492,1478,34.8353,-82.3647
+May,South Carolina,SC,Horry,45051,Myrtle Beach,275579,9509,612,33.7096,-78.8843
+May,South Carolina,SC,Richland,45079,Columbia,560041,37555,1768,34.0376,-80.9037
+May,Tennessee,TN,Davidson,47037,Nashville,1081903,127547,1375,36.1715,-86.7843
+May,Tennessee,TN,Hamilton,47065,Chattanooga,415501,13620,426,35.0657,-85.2488
+May,Tennessee,TN,Knox,47093,Knoxville,586048,9546,155,35.9692,-83.9496
+May,Tennessee,TN,Shelby,47157,Memphis,1066967,115937,2528,35.1046,-89.9773
+May,Texas,TX,Bell,48027,Killeen,258009,7979,95,31.0754,-97.7296
+May,Texas,TX,Bexar,48029,San Antonio,2049293,66319,1886,29.4658,-98.5253
+May,Texas,TX,Collin,48085,Plano,287677,31779,906,33.0502,-96.7487
+May,Texas,TX,Dallas,48113,Dallas,5743938,220336,5288,32.7936,-96.7662
+May,Texas,TX,Denton,48121,Denton,457177,32905,832,33.2176,-97.1419
+May,Texas,TX,El Paso,48141,El Paso,843386,54553,1423,31.8479,-106.4309
+May,Texas,TX,Harris,48201,Houston,5464251,287867,5889,29.7863,-95.3889
+May,Texas,TX,Hidalgo,48215,McAllen,804114,13582,274,26.2273,-98.2471
+May,Texas,TX,Lubbock,48303,Lubbock,267648,19225,1514,33.5659,-101.8878
+May,Texas,TX,Nueces,48355,Corpus Christi,342464,6261,93,27.726,-97.3755
+May,Texas,TX,Tarrant,48439,Fort Worth,909585,127889,3703,32.7811,-97.3473
+May,Texas,TX,Travis,48453,Austin,1687311,76062,2285,30.3004,-97.7522
+May,Texas,TX,Webb,48479,Laredo,262079,14412,547,27.5629,-99.4875
+May,Utah,UT,Salt Lake,49035,Salt Lake City,1098526,117914,1675,40.7777,-111.9306
+May,Utah,UT,Utah,49049,Provo,500617,45614,376,40.2457,-111.6457
+May,Utah,UT,Weber,49057,Ogden,578523,6623,97,41.2278,-111.9682
+May,Virginia,VA,Richmond,51760,Richmond,1075798,6873,94,37.5295,-77.4756
+May,Washington,WA,King,53033,Seattle,3789215,228112,16090,47.6211,-122.3244
+May,Washington,WA,Spokane,53063,Spokane,412275,13500,886,47.6671,-117.433
+May,Wisconsin,WI,Dane,55025,Madison,447245,16774,756,43.0826,-89.3931
+May,Wisconsin,WI,Milwaukee,55079,Milwaukee,1365787,155517,7633,43.0642,-87.9673
