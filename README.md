@@ -3,6 +3,7 @@
 This blog post looks at different aspects of mental and social health during the 2020 Covid-19 pandemic across the United States. The pandemic has been, and continues to be, a great source of anxiety, depression, and other regressive emotions for individuals, due to but not limited to the need for quarantine, social distancing, and a cruel but necessary departure from normal, pre-pandemic life. It is important to examine how the pandemic has impacted mental and social health, in different ways — this will help us understand and respond to the pandemic as a country. This Shiny app explores spatial patterns of anxiety and depression, social media presence of Covid-19 across counties, stress related to state-mandated shutdowns, and social vulnerability, across the contiguous United States.
 
 **Final Shiny app:** https://klingliu.shinyapps.io/blogproject/?_ga=2.184523502.911096917.1612080009-1049883942.1612080009
+
 **The Full Blog Post:** https://stat231-f20.github.io/Blog-Theory-of-Mind/
 
 # Data
